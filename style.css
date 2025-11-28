@@ -1,0 +1,17 @@
+.span {
+    text-align: center;
+    border: red;
+    background-color: red;
+    border-radius: 45px;
+}
+
+.a{
+    border: green;
+    background-color: green;
+    border-radius: 45px;
+}
+.o{
+    border: blue;
+    background-color: blue;
+    border-radius: 45px;
+}

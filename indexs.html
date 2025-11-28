@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+        <caption style="background-color: turquoise;">Employee information</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>Developer</td>
+                <td>$60,000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>Manager</td>
+                <td>$75,000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Emily Johnson</td>
+                <td>Designer</td>
+                <td>$55,000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<style>
+    table { border-collapse: collapse; width: 100%; }
+    th, td { padding: 8px 12px; text-align: left; }
+
+    /* header row */
+    thead tr { background: #008b8b; color: #fff; }
+
+    /* alternate row colors */
+    tbody tr:nth-child(odd)  { background: #ffe6e6; } /* light red/pink */
+    tbody tr:nth-child(even) { background: #e6fff0; } /* light green */
+</style>
